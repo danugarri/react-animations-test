@@ -25,9 +25,9 @@
     flex-wrap: wrap;
 }
 #closeButton{
-    position:absolute;
-    top:60px;
-    right:250px;
+    position:relative;
+    top:14%;
+    right:-80%;
     background-color:red;
     border-radius: 5px;
     z-index:1;
