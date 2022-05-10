@@ -5,8 +5,6 @@ import '../../components/modal/modal.css';
 
 export const ModalContainer= (props) => {
     const {openModal,handleOpenModal} = props;
-    // const closeModal= () =>openModal ? setOpenModal(false) : null;
-    // window.addEventListener('click', closeModal);
     const modalStyle= !openModal ? 'modal-container' : 'change-background';
     return (
         <div id={modalStyle}>

@@ -29,3 +29,8 @@
     right: 1rem;
 
 }
+.custom-modal {
+    position:relative;
+    text-align: center;
+    top: 20rem;
+}

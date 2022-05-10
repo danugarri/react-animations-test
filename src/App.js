@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import { Modals } from './components/modalTest/Modals';
 import { ModalContainer } from './containers/modal/ModalContainer';
+import './App.css';
 
 const App = () => {
 
@@ -8,10 +9,10 @@ const App = () => {
   const handleOpenModal = () => setOpenModal(!openModal);
 
   return (
-    <React.Fragment>
-      {/* <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/> */}
+    <main id ='app-container'>
+      <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/>
       <Modals />
-    </React.Fragment>
+    </main>
   );
 }
 

@@ -4,6 +4,7 @@ import './modalTest.css';
 export const ModalTest = (props) => {
     // HERE we use the prop children
     const {children, closeModal, isOpen} = props;
+    // stopping the click event propagation in order to handle how the modal is closed 
     const handleCloseModalEvent = e => e.stopPropagation();
     
   return (
