@@ -1,7 +1,7 @@
 import React from 'react'
-import './modalTest.css';
+import './GitHubModal.css';
 
-export const ModalTest = (props) => {
+export const GitHubModal = (props) => {
     // HERE we use the prop children
     const {children, closeModal, isOpen} = props;
     // stopping the click event propagation in order to handle how the modal is closed 

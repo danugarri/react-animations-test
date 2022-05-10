@@ -1,9 +1,11 @@
 import React from 'react';
-import './animation.css';
-import { BounceDiv, FadeDiv, PulseDiv, RollDiv } from './animationConsts';
+import '../animations/modalAnimations.css';
+import { BounceDiv, FadeDiv, PulseDiv, RollDiv } from '../animations/animationConsts';
+
  
-export const Animation = (props) => {
-    const {handleOpenModal} = props;
+export const Home = (props) => {
+
+    const {openMainModal} = props;
 
     return (
         <React.Fragment>
@@ -15,7 +17,7 @@ export const Animation = (props) => {
             </FadeDiv>
              <PulseDiv >
                 <RollDiv>
-                <button id='ball' onClick= {handleOpenModal}>Empezar</button>
+                <button id='ball' onClick= {openMainModal}>Empezar</button>
                 </RollDiv>
             </PulseDiv>
         </React.Fragment>

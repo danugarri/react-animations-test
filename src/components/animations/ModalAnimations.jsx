@@ -1,6 +1,6 @@
 import React from 'react';
 import './modalAnimations.css';
-import { PulseDiv,BounceOutDiv,FadeDiv2, RotateDiv} from '../animation/animationConsts';
+import { PulseDiv,BounceOutDiv,FadeDiv2, RotateDiv} from './animationConsts';
  
 export const ModalAnimations = () => {
    

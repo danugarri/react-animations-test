@@ -22,7 +22,7 @@ export const BounceOutDiv = styled.div`
 `;
 export const PulseDiv = styled.div`
     animation: 1s ${pulseAnimation};
-    animation-iteration-count: infinite;
+    
     text-align: center;
     margin-top: 30px;
 `;
@@ -37,7 +37,7 @@ export const FadeDiv = styled.div`
 `;
 export const FadeDiv2 = styled.div`
     animation: 2s ${fadeAnimation};
-    animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
     text-align: center;
     margin-top: 30px;
 `;

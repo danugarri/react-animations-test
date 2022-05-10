@@ -1,17 +1,18 @@
-import React,{useState} from 'react';
-import { Modals } from './components/modalTest/Modals';
-import { ModalContainer } from './containers/modal/ModalContainer';
+import React, { useState } from 'react';
+import { Modals } from './components/modals/Modals';
 import './App.css';
+import { Home } from './components/home/Home';
+import { useModal } from './hooks/useModal';
 
 const App = () => {
 
-  const [openModal, setOpenModal] = useState(false);
-  const handleOpenModal = () => setOpenModal(!openModal);
+  const [isOpenMainModal, openMainModal, closeMainModal]= useModal(false);
+  
 
   return (
     <main id ='app-container'>
-      <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/>
-      <Modals />
+      <Home openMainModal= {openMainModal} />
+      <Modals openModal= {openMainModal} isOpenMainModal= {isOpenMainModal} closeMainModal= {closeMainModal}/>
     </main>
   );
 }
