@@ -1,11 +1,12 @@
 import styled, { keyframes } from 'styled-components';
-import { bounce,pulse,rollIn,fadeIn,bounceOutDown} from 'react-animations';
+import { bounce,pulse,rollIn,fadeIn,bounceOutDown,rotateOut} from 'react-animations';
 
 const bounceAnimation = keyframes`${bounce}`;
 const pulseAnimation = keyframes`${pulse}`;
 const rollAnimation=  keyframes`${rollIn}`;
 const fadeAnimation=  keyframes`${fadeIn}`;
 const bounceOutAnimation=  keyframes`${bounceOutDown}`;
+const rotateAnimation=  keyframes`${rotateOut}`;
     
 
 export const BounceDiv = styled.div`
@@ -36,6 +37,12 @@ export const FadeDiv = styled.div`
 `;
 export const FadeDiv2 = styled.div`
     animation: 2s ${fadeAnimation};
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-top: 30px;
+`;
+export const RotateDiv = styled.div`
+    animation: 2s ${rotateAnimation};
     animation-iteration-count: infinite;
     text-align: center;
     margin-top: 30px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './modalAnimations.css';
-import { PulseDiv,BounceOutDiv,FadeDiv2} from '../animation/animationConsts';
+import { PulseDiv,BounceOutDiv,FadeDiv2, RotateDiv} from '../animation/animationConsts';
  
 export const ModalAnimations = () => {
    
@@ -18,6 +18,9 @@ export const ModalAnimations = () => {
                     <div id='ball2'></div>
                 </PulseDiv>
             </div>
+            <RotateDiv>
+                <span id= 'you'>Ahora tú</span>
+            </RotateDiv>
         </React.Fragment>
 
     );
