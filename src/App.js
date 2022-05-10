@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/>
+      {/* <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/> */}
       <Modals />
     </React.Fragment>
   );
