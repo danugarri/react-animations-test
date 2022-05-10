@@ -6,7 +6,7 @@ export const ModalTest = (props) => {
     const {children, closeModal, isOpen} = props;
     
   return (
-    <section className={`modal ${isOpen && 'is-open'}`}>
+    <section className={`modal ${isOpen && 'is-open'}`} onClick= {closeModal}>
         <div className="modal-container">
            <button className="modal-close" onClick= {closeModal}>X</button>
             {children}
