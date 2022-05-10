@@ -10,8 +10,8 @@
     height: 100vh;
     }
 #modal-box{
-    width: 80vw;
-    height: 40vw;
+    width: 800px;
+    height: 500px;
     position:absolute;
     background-color: lightblue;
     top:50%;
@@ -24,7 +24,7 @@
 #closeButton{
     position:absolute;
     top:60px;
-    right:20VW;
+    right:250px;
     background-color:red;
     border-radius: 5px;
     z-index:1;
