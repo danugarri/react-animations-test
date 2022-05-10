@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { Modals } from './components/modalTest/Modals';
 import { ModalContainer } from './containers/modal/ModalContainer';
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <React.Fragment>
       <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/>
+      <Modals />
     </React.Fragment>
   );
 }
