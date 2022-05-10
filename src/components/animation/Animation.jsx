@@ -3,7 +3,7 @@ import './animation.css';
 import { BounceDiv, FadeDiv, PulseDiv, RollDiv } from './animationConsts';
  
 export const Animation = (props) => {
-
+    const {handleOpenModal} = props;
 
     return (
         <React.Fragment>
@@ -14,9 +14,9 @@ export const Animation = (props) => {
             <h2> Aquí podrá ver algunas de las animaciones disponibles</h2>
             </FadeDiv>
              <PulseDiv >
-                  <RollDiv>
-                    <div id='ball'>Empezar</div>
-                  </RollDiv>
+                <RollDiv>
+                <button id='ball' onClick= {handleOpenModal}>Empezar</button>
+                </RollDiv>
             </PulseDiv>
         </React.Fragment>
 

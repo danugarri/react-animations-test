@@ -1,0 +1,13 @@
+#ball2{
+    width: 40px;
+    height:40px;
+    background-color: #a52a2a;
+    border-radius: 50%;
+    position:relative;
+    left:20px
+}
+#bounce-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
