@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 // import { Animation } from './components/animation/Animation';
-import { Modal } from './containers/modal/Modal';
+import { ModalContainer } from './containers/modal/ModalContainer';
 
 const App = () => {
 
@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <Modal openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/>
+      <ModalContainer openModal= {openModal} handleOpenModal= {handleOpenModal} setOpenModal= {setOpenModal}/>
     </React.Fragment>
   );
 }
