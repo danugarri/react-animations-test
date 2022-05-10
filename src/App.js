@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-// import { Animation } from './components/animation/Animation';
 import { ModalContainer } from './containers/modal/ModalContainer';
 
 const App = () => {

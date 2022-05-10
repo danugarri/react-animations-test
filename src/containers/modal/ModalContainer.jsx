@@ -1,7 +1,7 @@
 import React from "react";
 import { Animation } from "../../components/animation/Animation";
 import { Modal } from "../../components/modal/Modal";
-import './modal.css';
+import '../../components/modal/modal.css';
 
 export const ModalContainer= (props) => {
     const {openModal,handleOpenModal} = props;
