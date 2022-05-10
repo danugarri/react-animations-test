@@ -1,0 +1,9 @@
+#ball {
+    background-color:blue;
+    width:100px;
+    height:50px;
+    border-radius: 50%;
+    margin:0 auto;
+    color: #FFF;
+    line-height: 40px;
+}
