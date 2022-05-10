@@ -12,7 +12,7 @@ export const Modals = (props) => {
     };
 
     return (
-        <div >
+        <div className='custom-modal'>
             <h2>Github</h2>
             <button onClick= {openModal}>open Modal</button>
             <GitHubModal isOpen= {isOpen} closeModal= {closeModal} >

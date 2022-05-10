@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Modals } from './components/modals/Modals';
 import './App.css';
 import { Home } from './components/home/Home';
